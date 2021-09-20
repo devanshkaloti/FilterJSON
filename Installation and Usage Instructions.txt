@@ -1,0 +1,23 @@
+
+OPTION 1 - SIMPLE RUNNING
+1. Run the following command in Terminal: 
+open -na Google\ Chrome --args --user-data-dir=/tmp/temporary-chrome-profile-dir --disable-web-security
+
+2. In the window that opened, navigate to: http://thd.filterjson.com/
+
+OPTION 2 - ADVANCED INSTALLATION
+1. Install Node: 
+	a. Open "The Home Depot App Store" 
+	b. Install "NodeJS" 
+	
+2. Run Web Page
+	a. Open Terminal
+	b. cd to the project root directory
+	c. Run the command "npm run" 
+	d. A webpage will open the "localhost:3000"
+	e. Run the following command in terminal "open -na Google\ Chrome --args --user-data-dir=/tmp/temporary-chrome-profile-dir --disable-web-security"
+	(this disables CORS Policy, this is a temporary workaround until we find a better solution) 
+	f. In the new window, go to "localhost:3000"
+	
+If you have any questions or concerns
+289-260-2717 or devansh.kaloti@uwaterloo.ca
